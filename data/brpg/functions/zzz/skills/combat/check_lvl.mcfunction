@@ -1,0 +1,10 @@
+execute if score @s brpg.points.combat matches 100.. unless score @s brpg.level.combat matches 1.. run function brpg:zzz/skills/combat/level_up/1
+execute if score @s brpg.points.combat matches 250.. unless score @s brpg.level.combat matches 2.. run function brpg:zzz/skills/combat/level_up/2
+execute if score @s brpg.points.combat matches 500.. unless score @s brpg.level.combat matches 3.. run function brpg:zzz/skills/combat/level_up/3
+execute if score @s brpg.points.combat matches 1000.. unless score @s brpg.level.combat matches 4.. run function brpg:zzz/skills/combat/level_up/4
+execute if score @s brpg.points.combat matches 2500.. unless score @s brpg.level.combat matches 5.. run function brpg:zzz/skills/combat/level_up/5
+execute if score @s brpg.points.combat matches 5000.. unless score @s brpg.level.combat matches 6.. run function brpg:zzz/skills/combat/level_up/6
+execute if score @s brpg.points.combat matches 10000.. unless score @s brpg.level.combat matches 7.. run function brpg:zzz/skills/combat/level_up/7
+execute if score @s brpg.points.combat matches 25000.. unless score @s brpg.level.combat matches 8.. run function brpg:zzz/skills/combat/level_up/8
+execute if score @s brpg.points.combat matches 50000.. unless score @s brpg.level.combat matches 9.. run function brpg:zzz/skills/combat/level_up/9
+execute if score @s brpg.points.combat matches 100000.. unless score @s brpg.level.combat matches 10.. run function brpg:zzz/skills/combat/level_up/10
